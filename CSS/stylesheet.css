@@ -13,16 +13,24 @@ h3{
     width:23px;
     max-height:30px;
     position: relative;
-    margin: 0.9em;
+    margin: 0.75em;
     top: 15px;
 }
 
 .aboutKandua{
-    color: #000000;
-    position: relative;
-    padding-top: 5px;
-    display: inline-block;
-    font-size: 20px;
+    display: none;
+}
+
+.instagram{
+    display:none;
+}
+
+.facebook{
+    display:none;
+}
+
+.linked{
+    display: none;
 }
 
 .burgerNav{
@@ -30,8 +38,8 @@ h3{
     width:23px;
     max-height:40px;
     position: relative;
-    left: 270px;
-    top: -1px;
+    top: -25px;
+    left: 325px;
     margin-left: -0.9em;
     fill: #3f3f3f;
 }
@@ -39,14 +47,17 @@ h3{
 .heading{
     color: #4c95fc;
     position: relative;
-    top: 20px;
+    top: 5px;
     margin: 0.3em;
     padding-bottom: 20px;
+    /* vertical-align: middle; */
 }
 
 .mainText{
     margin: 0.9em; 
     padding-bottom: 15px; 
+    position: relative;
+    top: 5px;
 }
 
 .blueBar{
@@ -54,6 +65,8 @@ h3{
     color:#eeeeee;
     text-align: center;
     padding: 20px;
+    position: relative;
+    top:15px;
     font-weight: bold;
     line-height: 0.9em;
 }
@@ -62,13 +75,16 @@ h3{
     color: #4c95fc;
     padding-top: 20px;
     margin: 0.3em;
+    position: relative;
+    top:20px;
+    font-weight: bolder;
 }
 
 .thembi{
     width: 120px;
     height:auto;
     position: relative;
-    top:-150px;
+    top:-130px;
     padding-left: 20px;
     display: inline-block;
 }
@@ -77,7 +93,7 @@ h3{
     max-width: 170px;
     max-height: auto;
     position: relative;
-    top:10px;
+    top:40px;
     padding-left: 25px;
     display: inline-block;
 }
@@ -86,7 +102,7 @@ h3{
     width: 120px;
     height: auto;
     position: relative;
-    top:-255px;
+    top:-225px;
     padding-left: 20px;
     display: inline-block;
 }
@@ -96,13 +112,15 @@ h3{
     height: auto;
     padding-left: 25px;
     display: inline-block;
+    position: relative;
+    top:42px;
 }
 
 .janine{
     width: 120px;
     height: auto;
     position: relative;
-    top:-280px;
+    top:-250px;
     padding-left: 20px;
     display: inline-block;
 }
@@ -112,6 +130,8 @@ h3{
     max-height: auto;
     padding-left: 25px;
     display: inline-block;
+    position: relative;
+    top:40px;
 }
 
 .quote{
@@ -123,6 +143,7 @@ h3{
     text-align: center;
     padding: 20px;
     position: relative;
+    top:40px;
     left: 90px;
 }
 
@@ -131,13 +152,16 @@ h3{
     padding-top: 30px;
     padding-bottom: 10px;
     margin: 0.3em;
+    font-weight: bolder;
+    position: relative;
+    top:40px;
 }
 
 .dylan{
     width: 120px;
     height: auto;
     position: relative;
-    top:-210px;
+    top:-170px;
     padding-left: 20px;
     display: inline-block;
 }
@@ -147,13 +171,15 @@ h3{
     max-height: auto;
     padding-left: 25px;
     display: inline-block;
+    position: relative;
+    top:45px;
 }
 
 .mohammed{
     width: 120px;
     height: auto;
     position: relative;
-    top:-235px;
+    top:-200px;
     padding-left: 20px;
     display: inline-block;
 }
@@ -163,13 +189,15 @@ h3{
     max-height: auto;
     padding-left: 25px;
     display: inline-block;
+    position: relative;
+    top:45px;
 }
 
 .joe{
     width: 120px;
     height: auto;
     position: relative;
-    top:-110px;
+    top:-75px;
     padding-left: 20px;
     display: inline-block;
 }
@@ -179,6 +207,8 @@ h3{
     max-height: auot;
     padding-left: 25px;
     display: inline-block;
+    position: relative;
+    top:45px;
 }
 
 .join{
@@ -189,6 +219,7 @@ h3{
     text-align: center;
     padding: 20px;
     position: relative;
+    top:45px;
     left: 85px;
 }
 
@@ -198,13 +229,16 @@ h3{
     padding-bottom: 8px;
     line-height: 35px; 
     margin: 0.3em;
+    font-weight: bolder;
+    position: relative;
+    top:45px;
 }
 
 .ygap{
     width: 90px;
     height:auto;
     position: relative;
-    top:-325px;
+    top:-270px;
     padding-left: 20px;
     display: inline-block;
 }
@@ -215,13 +249,15 @@ h3{
     padding-left: 25px;
     display: inline-block;
     padding-bottom: 20px;
+    position: relative;
+    top:60px;
 }
 
 .leroyMerlin{
     width: 100px;
     height:auto;
     position: relative;
-    top:-265px;
+    top:-200px;
     display: inline-block;
 }
 
@@ -231,6 +267,8 @@ h3{
     padding-left: 15px;
     padding-bottom: 30px;
     display: inline-block;
+    position: relative;
+    top:65px;
 }
 
 .partner{
@@ -241,7 +279,9 @@ h3{
     text-align: center;
     padding: 20px;
     position: relative;
+    top:60px;
     left: 50px;  
+
 }
 .teamHeading{
     color: #4c95fc;
@@ -249,13 +289,16 @@ h3{
     padding-bottom: 10px;
     line-height: 35px; 
     margin: 0.3em;
+    font-weight: bolder;
+    position: relative;
+    top:55px;
 }
 
 .rosey{
     width: 120px;
     height: auto;
     position: relative;
-    top:-115px;
+    top:-55px;
     padding-left: 20px;
     display: inline-block;
 }
@@ -265,13 +308,16 @@ h3{
     max-height: auto;
     padding-left: 25px;
     display: inline-block;
+    position: relative;
+    top:65px;
 }
 
 .michael{
     width: 120px;
     height: auto;
     position: relative;
-    top:-205px;
+    top:-105px;
+    padding-left: 20px;
     display: inline-block;
 }
 
@@ -281,13 +327,14 @@ h3{
     padding-left: 25px;
     display: inline-block;
     position: relative;
-    top:-45px;
+    top:65px;
 }
 .royzanne{
     width: 120px;
     height: auto;
+    padding-left: 20px;
     position: relative;
-    top:-270px;
+    top:-155px;
     display: inline-block;
 }
 
@@ -297,7 +344,7 @@ h3{
     padding-left: 25px;
     display: inline-block;
     position: relative;
-    top:-60px;
+    top:65px;
     margin: 0;
 }
 .openings{
@@ -308,23 +355,24 @@ h3{
     text-align: center;
     padding: 20px;
     position: relative;
-    top:-60px;
+    top:65px;
     left: 50px;  
 }
 .founderHeading{
     color: #4c95fc;
     padding-top: 30px;
     position: relative;
-    top:-60px;
+    top:60px;
     padding-bottom: 10px;
     margin: 0.3em;
+    font-weight: bolder;
 }
 
 .arjun{
     width: 315px;
     height: auto;
     position: relative;
-    top:-40px;
+    top:80px;
     padding-left: 20px;
     display: inline-block;
 }
@@ -332,6 +380,8 @@ h3{
 .arjunHeading{
     color: #4c95fc; 
     text-align: center;
+    position: relative;
+    top:110px;
 }
 
 .arjunText{
@@ -341,7 +391,7 @@ h3{
     padding-right: 25px;
     text-align: center;
     position: relative;
-    top:20px;
+    top:125px;
     display: inline-block;
 }
 
@@ -349,7 +399,7 @@ h3{
     width: 315px;
     height: auto;
     position: relative;
-    top:50px;
+    top:150px;
     padding-left: 20px;
     display: inline-block;
 }
@@ -358,7 +408,7 @@ h3{
     color: #4c95fc;
     text-align: center;
     position: relative;
-    top:85px;
+    top:180px;
 }
 
 .sayoText{
@@ -368,7 +418,7 @@ h3{
     padding-right: 25px;
     text-align: center;
     position: relative;
-    top:100px;
+    top:200px;
     display: inline-block;
 }
 
@@ -380,7 +430,7 @@ h3{
     text-align: center;
     padding: 20px;
     position: relative;
-    top:120px;
+    top:220px;
     left: 85px;
 }
 
@@ -389,13 +439,13 @@ h3{
     height:auto;
     vertical-align: middle;
     position: relative;
-    top:140px;
+    top:240px;
     padding: 25px;
 }
 
 .back{
     position: relative;
-    top:160px; 
+    top:260px; 
     text-align: center;
 }
 
@@ -407,18 +457,60 @@ h3{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    *{  box-sizing: border-box;
+        /* overflow-x: hidden; */
+        margin: 0;
+        padding:0;
+    }
 
     .headerSection{
         contain: none;
     }
     .logo{
-        width:70px;
-        max-height:60px;
+        width:75px;
+        max-height:95px;
         position: relative;
-        top: 15px;
-        padding-left: 30px;
+        top: 30px;
+        padding-left: 35px;
     }
-    
+    .aboutKandua{
+        display: block;
+        color: #000000;
+        position: relative;
+        top:33px;
+        left: 8px;
+        padding-top: 5px;
+        display: inline-block;
+        font-size: 17px;
+        border-bottom: 1px solid;
+    }
+    .instagram{
+        display: block;
+        width:25px;
+        height:25px;
+        position: relative;
+        right:150px;
+        top:60px;
+        float:right;
+    }
+    .facebook{
+        display: block;
+        width:25px;
+        height:25px;
+        position: relative;
+        right:80px;
+        top:60px;
+        float:right;
+    }
+    .linked{
+        display: block;
+        width:25px;
+        height:25px;
+        position: relative;
+        right:10px;
+        top:60px;
+        float:right;
+    }
     .burgerNav{
         display:none;
     }
@@ -426,10 +518,437 @@ h3{
     .heading{
         color: #4c95fc;
         position: relative;
-        top: 20px;
+        top: 60px;
         margin: 0.3em;
         padding-bottom: 20px;
+        text-align: center;
+        font-size: 2.8em;
     }  
+
+    .mainText{
+        margin: 0.9em;  
+        padding-bottom: 15px; 
+        /* text-align: center; */
+        position: relative;
+        top: 80px;
+        font-size: 1.3em;
+    }
+    
+    .blueBar{
+        background-color: #4c95fc;
+        color:#eeeeee;
+        position: relative;
+        top:130px;
+        font-weight: bold;
+        line-height: 0.9em;
+        max-height: 120px;
+    }
+
+    .numberOne{
+        position: relative;
+        top:10px;
+        left:-470px;
+        
+    }
+    .numberTwo{
+        position: relative;
+        top:-80px;
+        left:-20px;
+        
+    }
+    .numberThree{
+        position: absolute;
+        top:30px;
+        right:250px;
+       
+    }
+
+    .statsOne{
+        display: inline;
+        position: relative;
+        top:-5px;
+        left:-470px;
+    }
+    .statsTwo{
+        display: inline;
+        position: relative;
+        top:-90px;
+        left:-20px;
+    }
+    .statsThree{
+        display: inline;
+        position: absolute;
+        top:80px;
+        right:100px;
+    }
+    
+    .customerHeading{
+        color: #4c95fc;
+        padding-top: 20px;
+        margin: 0.3em;
+        position: relative;
+        top:180px;
+        font-weight: bolder;
+    }
+    
+    .thembi{
+        width: 150px;
+        height:auto;
+        position: relative;
+        top:250px;
+        padding-left: 20px;
+    }
+    
+    .thembiText{
+        max-width: 900px;
+        position: relative;
+        top:250px;
+        
+    }
+
+    .thembiOne{
+        position: relative;
+        left:700px;
+    }
+    
+    .paulo{
+        width: 150px;
+        height: auto;
+        position: relative;
+        top:280px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .pauloText{
+        max-width: 900px;
+        position: relative;
+        top:270px;
+    }
+    
+    #pauoloOne{
+        position: relative;
+        left:1200px;
+    }
+    .janine{
+        width: 150px;
+        height: auto;
+        position: relative;
+        top:315px;
+        padding-left: 20px;
+    }
+    
+    .janineText{
+        max-width: 900px;
+        position: relative;
+        top:305px;
+    }
+    
+    .quote{
+        width: 150px;
+        height: 60px;
+        background-color: #4c95fc;
+        color: #eeeeee;
+        text-decoration: none;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top:350px;
+        left: 470px;
+    }
+    
+    .proHeading{
+        color: #4c95fc;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        margin: 0.3em;
+        font-weight: bolder;
+        position: relative;
+        top:380px;
+    }
+    
+    .dylan{
+        width: 150px;
+        height: auto;
+        position: relative;
+        top:420px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .dylanText{
+        max-width: 900px;
+        position: relative;
+        top:410px;
+    }
+    
+    .mohammed{
+        width: 150px;
+        height: auto;
+        position: relative;
+        top:460px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .mohammedText{
+        max-width: 900px;
+        position: relative;
+        top:455px;
+    }
+    
+    .joe{
+        width: 150px;
+        height: auto;
+        position: relative;
+        top:500px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .joeText{
+        max-width: 900px;
+        position: relative;
+        top:465px;
+    }
+    
+    .join{
+        width: 150px;
+        height: 60px;
+        background-color: #4c95fc;
+        color: #eeeeee;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top:550px;
+        left: 475px;
+    }
+    
+    .partnersHeading{
+        color: #4c95fc;
+        padding-top: 30px;
+        padding-bottom: 8px;
+        line-height: 35px; 
+        margin: 0.3em;
+        font-weight: bolder;
+        position: relative;
+        top:555px;
+    }
+    
+    .ygap{
+        width: 150px;
+        height:auto;
+        position: relative;
+        top:540px;
+        padding-left: 25px;
+        display: inline-block;
+    }
+    
+    .ygapText{
+        max-width: 900px;
+        position: relative;
+        padding-left: 20px;
+        top:600px;
+    }
+    
+    .leroyMerlin{
+        width: 150px;
+        height:auto;
+        position: relative;
+        top:575px;
+        display: inline-block;
+    }
+    
+    .leroyMerlinText{
+        max-width: 900px;
+        position: relative;
+        top:580px;
+    }
+    
+    .partner{
+        width: 230px;
+        height: 60px;
+        background-color: #4c95fc;
+        color: #eeeeee;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top:600px;
+        left: 440px;  
+    
+    }
+    .teamHeading{
+        color: #4c95fc;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        line-height: 35px; 
+        margin: 0.3em;
+        font-weight: bolder;
+        position: relative;
+        top:620px;
+    }
+    
+    .rosey{
+        width: 150px;
+        height: auto;
+        position: relative;
+        top:665px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .roseyText{
+        max-width: 900px;
+        position: relative;
+        top:630px;
+    }
+    
+    .michael{
+        width: 150px;
+        height: auto;
+        position: relative;
+        top:705px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .michaelText{
+        max-width: 900px;
+        padding-left: 25px;
+        position: relative;
+        top:695px;
+    }
+    .royzanne{
+        width: 150px;
+        height: auto;
+        padding-left: 20px;
+        position: relative;
+        top:745px;
+        display: inline-block;
+    }
+    
+    .royzanneText{
+        max-width: 900px;
+        padding-left: 25px;
+        position: relative;
+        top:735px;
+        margin: 0;
+    }
+    .openings{
+        width: 230px;
+        height: 60px;
+        background-color: #4c95fc;
+        color: #eeeeee;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top:800px;
+        left: 450px;  
+    }
+    .founderHeading{
+        color: #4c95fc;
+        padding-top: 30px;
+        position: relative;
+        top:860px;
+        text-align: center;
+        padding-bottom: 10px;
+        margin: 0.3em;
+        font-weight: bolder;
+    }
+    
+    .arjun{
+        width: 500px;
+        height: auto;
+        position: relative;
+        top:900px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .arjunHeading{
+        color: #4c95fc; 
+        position: relative;
+        left:-295px;
+        font-size: 22px;
+        top:915px;
+    }
+    
+    .arjunText{
+        max-width: 500px;
+        max-height: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: center;
+        position: relative;
+        top:920px;
+        display: inline-block;
+    }
+
+    .foundersSection .arjunText br{
+        display:none;
+    }
+    
+    .sayo{
+        width: 500px;
+        height: auto;
+        position: relative;
+        top:625px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .sayoHeading{
+        color: #4c95fc;
+        text-align: center;
+        font-size: 22px;
+        position: relative;
+        top:640px;
+        left:205px;
+    }
+    
+    .sayoText{
+        max-width: 550px;
+        max-height: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: center;
+        position: relative;
+        top:640px;
+        display: inline-block;
+        left:550px;
+    }
+    
+    .touch{
+        width: 150px;
+        height: 60px;
+        background-color: #4c95fc;
+        color: #eeeeee;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top:780px;
+        left: 455px;
+    }
+    
+    .stroke{
+        width:1200px;
+        height:auto;
+        vertical-align: middle;
+        position: relative;
+        top:800px;
+        /* padding: 25px; */
+    }
+    
+    .back{
+        position: relative;
+        top:840px; 
+        text-align: center;
+    }
+    
+    .arrow{
+        width:35px;
+        height:15px;
+    }
 
 
 
