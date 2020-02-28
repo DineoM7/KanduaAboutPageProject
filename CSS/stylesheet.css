@@ -1006,121 +1006,119 @@ h3{
     .blueBar{
         background-color: #4c95fc;
         color:#eeeeee;
-        padding: 20px;
+        padding:35px 35px 35px 35px;
         position: relative;
-        top:15px;
-        /* font-weight: bold; */
+        top:80px;
         line-height: 0.9em;
         margin: 0;
         font-size: 16px;
         width:100%;
+        height: 150px;
     }
     .numberOne{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        position: relative;
+        left:-290px;
         font-size: 1rem;
         padding: 5px;
         
     }
     
     .numberTwo{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        position: relative;
+        left:10px;
+        top:-120px;
         font-size: 1rem;
         padding: 5px;
     }
     .numberThree{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        position: absolute;
+        left:630px;
+        top:35px;
         font-size: 1rem;
         padding: 5px;
-    }
+    }   
     .statsOne{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        position: relative;
+        left: -280px;
+        top:-20px;
         font-size: 1rem;
         padding: 5px;
     }
     .statsTwo{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        position: relative;
+        top: -140px;
         font-size: 1rem;
         padding: 5px;
     }
-    .statsThree{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+    /* .statsThree{
+        position: relative;
+        top:-260px;
+        left: 240px;
         font-size: 1rem;
         padding: 5px;
-    }
+        word-wrap: break-word;
+    } */
     
     .customerHeading{
         color: #4c95fc;
         padding-top: 20px;
         margin: 0.3em;
         position: relative;
-        top:20px;
+        top:100px;
         font-weight: bolder;
     }
     
     .thembi{
-        width: 120px;
+        width: 80px;
         height:auto;
         position: relative;
-        top:-130px;
+        top:100px;
         padding-left: 20px;
-        display: inline-block;
+        
     }
     
     .thembiText{
-        max-width: 170px;
+        max-width: 500px;
         max-height: auto;
         position: relative;
-        top:40px;
+        top:130px;
         padding-left: 25px;
-        display: inline-block;
+       
     }
     
     .paulo{
-        width: 120px;
+        width: 80px;
         height: auto;
         position: relative;
-        top:-225px;
-        padding-left: 20px;
-        display: inline-block;
+        top:235px;
+        right:590px;
+        
     }
     
     .pauloText{
-        max-width: 170px;
+        max-width: 500px;
         height: auto;
-        padding-left: 25px;
-        display: inline-block;
         position: relative;
-        top:42px;
+        top:168px;
+        left: 79px;
     }
     
     .janine{
-        width: 120px;
+        width: 80px;
         height: auto;
         position: relative;
-        top:-250px;
-        padding-left: 20px;
-        display: inline-block;
+        top:240px;
+        right:505px;
     }
     
     .janineText{
-        max-width: 170px;
+        max-width: 500px;
         max-height: auto;
         padding-left: 25px;
         display: inline-block;
         position: relative;
-        top:40px;
+        top:175px;
+        left: 79px;
     }
     
     .quote{
@@ -1132,8 +1130,8 @@ h3{
         text-align: center;
         padding: 20px;
         position: relative;
-        top:40px;
-        left: 90px;
+        top:190px;
+        left: 280px;
     }
     
     .proHeading{
@@ -1143,61 +1141,56 @@ h3{
         margin: 0.3em;
         font-weight: bolder;
         position: relative;
-        top:40px;
+        top:190px;
     }
     
     .dylan{
-        width: 120px;
+        width: 80px;
         height: auto;
         position: relative;
-        top:-170px;
+        top:170px;
         padding-left: 20px;
         display: inline-block;
     }
     
     .dylanText{
-        max-width: 170px;
+        max-width: 500px;
         max-height: auto;
-        padding-left: 25px;
-        display: inline-block;
         position: relative;
-        top:45px;
+        top:215px;
+        left: -2px;
     }
     
     .mohammed{
-        width: 120px;
+        width: 80px;
         height: auto;
         position: relative;
-        top:-200px;
-        padding-left: 20px;
-        display: inline-block;
+        top:300px;
+        right:585px;
     }
     
     .mohammedText{
-        max-width: 170px;
+        max-width: 500px;
         max-height: auto;
-        padding-left: 25px;
-        display: inline-block;
+        left: 79px;
         position: relative;
-        top:45px;
+        top:235px;
     }
     
     .joe{
-        width: 120px;
+        width: 80px;
         height: auto;
         position: relative;
-        top:-75px;
-        padding-left: 20px;
-        display: inline-block;
+        top:305px;
+        right: 504px;
     }
     
     .joeText{
-        max-width: 170px;
-        max-height: auot;
-        padding-left: 25px;
-        display: inline-block;
+        max-width: 500px;
+        max-height: auto;
         position: relative;
-        top:45px;
+        left: 79px;
+        top:255px;
     }
     
     .join{
@@ -1208,8 +1201,8 @@ h3{
         text-align: center;
         padding: 20px;
         position: relative;
-        top:45px;
-        left: 85px;
+        top:275px;
+        left: 285px;
     }
     
     .partnersHeading{
@@ -1220,44 +1213,43 @@ h3{
         margin: 0.3em;
         font-weight: bolder;
         position: relative;
-        top:45px;
+        top:270px;
     }
     
     .ygap{
         width: 90px;
         height:auto;
         position: relative;
-        top:-270px;
+        top:180px;
         padding-left: 20px;
         display: inline-block;
     }
     
     .ygapText{
-        max-width: 200px;
+        max-width: 550px;
         max-height: auto;
         padding-left: 25px;
-        display: inline-block;
         padding-bottom: 20px;
         position: relative;
-        top:60px;
+        top:295px;
     }
     
     .leroyMerlin{
         width: 100px;
         height:auto;
         position: relative;
-        top:-200px;
+        top:225px;
         display: inline-block;
     }
     
     .leroyMerlinText{
-        max-width: 200px;
+        max-width: 550px;
         max-height: auto;
         padding-left: 15px;
         padding-bottom: 30px;
         display: inline-block;
         position: relative;
-        top:65px;
+        top:290px;
     }
     
     .partner{
@@ -1268,8 +1260,8 @@ h3{
         text-align: center;
         padding: 20px;
         position: relative;
-        top:60px;
-        left: 50px;  
+        top:280px;
+        left: 250px;  
     
     }
     .teamHeading{
@@ -1280,60 +1272,60 @@ h3{
         margin: 0.3em;
         font-weight: bolder;
         position: relative;
-        top:55px;
+        top:275px;
     }
     
     .rosey{
-        width: 120px;
+        width: 80px;
         height: auto;
         position: relative;
-        top:-55px;
+        top:285px;
         padding-left: 20px;
         display: inline-block;
     }
     
     .roseyText{
-        max-width: 200px;
+        max-width: 500px;
         max-height: auto;
-        padding-left: 25px;
-        display: inline-block;
+        padding-left: 35px;
         position: relative;
-        top:65px;
+        top:305px;
     }
     
     .michael{
-        width: 120px;
+        width: 80px;
         height: auto;
         position: relative;
-        top:-105px;
+        top:285px;
         padding-left: 20px;
         display: inline-block;
     }
     
     .michaelText{
-        max-width: 200px;
+        max-width: 500px;
         max-height: auto;
-        padding-left: 25px;
+        padding-left: 35px;
         display: inline-block;
         position: relative;
-        top:65px;
+        top:330px;
     }
     .royzanne{
-        width: 120px;
+        width: 80px;
         height: auto;
         padding-left: 20px;
         position: relative;
-        top:-155px;
+        top:415px;
+        right: 590px;
         display: inline-block;
     }
     
     .royzanneText{
-        max-width: 200px;
+        max-width: 500px;
         max-height: auto;
-        padding-left: 25px;
+        left: 90px;
         display: inline-block;
         position: relative;
-        top:65px;
+        top:350px;
         margin: 0;
     }
     .openings{
@@ -1344,25 +1336,24 @@ h3{
         text-align: center;
         padding: 20px;
         position: relative;
-        top:65px;
-        left: 50px;  
+        top:395px;
+        left: 230px;  
     }
     .founderHeading{
         color: #4c95fc;
         padding-top: 30px;
         position: relative;
-        top:60px;
-        padding-bottom: 10px;
-        margin: 0.3em;
+        top:400px;
+        text-align: center;
         font-weight: bolder;
     }
     
     .arjun{
-        width: 315px;
+        width: 450px;
         height: auto;
         position: relative;
-        top:80px;
-        padding-left: 20px;
+        top:420px;
+        left: 110px;
         display: inline-block;
     }
     
@@ -1370,26 +1361,26 @@ h3{
         color: #4c95fc; 
         text-align: center;
         position: relative;
-        top:110px;
+        top:445px;
     }
     
     .arjunText{
-        max-width: auto;
+        max-width: 500px;
         max-height: auto;
-        padding-left: 25px;
+        left: 110px;
         padding-right: 25px;
         text-align: center;
         position: relative;
-        top:125px;
+        top:455px;
         display: inline-block;
     }
     
     .sayo{
-        width: 315px;
+        width: 420px;
         height: auto;
         position: relative;
-        top:150px;
-        padding-left: 20px;
+        top:480px;
+        left: 130px;
         display: inline-block;
     }
     
@@ -1397,17 +1388,17 @@ h3{
         color: #4c95fc;
         text-align: center;
         position: relative;
-        top:180px;
+        top:505px;
     }
     
     .sayoText{
-        max-width: auto;
+        max-width: 500px;
         max-height: auto;
-        padding-left: 25px;
+        left:108px;
         padding-right: 25px;
         text-align: center;
         position: relative;
-        top:200px;
+        top:520px;
         display: inline-block;
     }
     
@@ -1419,22 +1410,22 @@ h3{
         text-align: center;
         padding: 20px;
         position: relative;
-        top:220px;
-        left: 85px;
+        top:550px;
+        left: 275px;
     }
     
     .stroke{
-        width:350px;
+        width:650px;
         height:auto;
         vertical-align: middle;
         position: relative;
-        top:240px;
-        padding: 25px;
+        top:560px;
+        left: 50px;
     }
     
     .back{
         position: relative;
-        top:260px; 
+        top:590px; 
         text-align: center;
     }
     
