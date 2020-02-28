@@ -1,0 +1,1438 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    margin: 0;
+}
+
+h3{
+    font-weight: bold;
+}
+
+
+.logo{
+    width:23px;
+    max-height:30px;
+    position: relative;
+    margin: 0.75em;
+    top: 15px;
+}
+
+.aboutKandua{
+    display: none;
+}
+
+.instagram{
+    display:none;
+}
+
+.facebook{
+    display:none;
+}
+
+.linked{
+    display: none;
+}
+
+.burgerNav{
+    display: block;
+    width:23px;
+    max-height:40px;
+    position: relative;
+    top: -25px;
+    left: 325px;
+    margin-left: -0.9em;
+    fill: #3f3f3f;
+}
+
+.heading{
+    color: #4c95fc;
+    position: relative;
+    top: 5px;
+    margin: 0.3em;
+    padding-bottom: 20px;
+    /* vertical-align: middle; */
+}
+
+.mainText{
+    margin: 0.9em; 
+    padding-bottom: 15px; 
+    position: relative;
+    top: 5px;
+}
+
+.blueBar{
+    background-color: #4c95fc;
+    color:#eeeeee;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top:15px;
+    font-weight: bold;
+    line-height: 0.9em;
+}
+
+.customerHeading{
+    color: #4c95fc;
+    padding-top: 20px;
+    margin: 0.3em;
+    position: relative;
+    top:20px;
+    font-weight: bolder;
+}
+
+.thembi{
+    width: 120px;
+    height:auto;
+    position: relative;
+    top:-130px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.thembiText{
+    max-width: 170px;
+    max-height: auto;
+    position: relative;
+    top:40px;
+    padding-left: 25px;
+    display: inline-block;
+}
+
+.paulo{
+    width: 120px;
+    height: auto;
+    position: relative;
+    top:-225px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.pauloText{
+    max-width: 170px;
+    height: auto;
+    padding-left: 25px;
+    display: inline-block;
+    position: relative;
+    top:42px;
+}
+
+.janine{
+    width: 120px;
+    height: auto;
+    position: relative;
+    top:-250px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.janineText{
+    max-width: 170px;
+    max-height: auto;
+    padding-left: 25px;
+    display: inline-block;
+    position: relative;
+    top:40px;
+}
+
+.quote{
+    width: 150px;
+    height: 60px;
+    background-color: #4c95fc;
+    color: #eeeeee;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top:40px;
+    left: 90px;
+}
+
+.proHeading{
+    color: #4c95fc;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 0.3em;
+    font-weight: bolder;
+    position: relative;
+    top:40px;
+}
+
+.dylan{
+    width: 120px;
+    height: auto;
+    position: relative;
+    top:-170px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.dylanText{
+    max-width: 170px;
+    max-height: auto;
+    padding-left: 25px;
+    display: inline-block;
+    position: relative;
+    top:45px;
+}
+
+.mohammed{
+    width: 120px;
+    height: auto;
+    position: relative;
+    top:-200px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.mohammedText{
+    max-width: 170px;
+    max-height: auto;
+    padding-left: 25px;
+    display: inline-block;
+    position: relative;
+    top:45px;
+}
+
+.joe{
+    width: 120px;
+    height: auto;
+    position: relative;
+    top:-75px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.joeText{
+    max-width: 170px;
+    max-height: auot;
+    padding-left: 25px;
+    display: inline-block;
+    position: relative;
+    top:45px;
+}
+
+.join{
+    width: 150px;
+    height: 60px;
+    background-color: #4c95fc;
+    color: #eeeeee;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top:45px;
+    left: 85px;
+}
+
+.partnersHeading{
+    color: #4c95fc;
+    padding-top: 30px;
+    padding-bottom: 8px;
+    line-height: 35px; 
+    margin: 0.3em;
+    font-weight: bolder;
+    position: relative;
+    top:45px;
+}
+
+.ygap{
+    width: 90px;
+    height:auto;
+    position: relative;
+    top:-270px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.ygapText{
+    max-width: 200px;
+    max-height: auto;
+    padding-left: 25px;
+    display: inline-block;
+    padding-bottom: 20px;
+    position: relative;
+    top:60px;
+}
+
+.leroyMerlin{
+    width: 100px;
+    height:auto;
+    position: relative;
+    top:-200px;
+    display: inline-block;
+}
+
+.leroyMerlinText{
+    max-width: 200px;
+    max-height: auto;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    display: inline-block;
+    position: relative;
+    top:65px;
+}
+
+.partner{
+    width: 230px;
+    height: 60px;
+    background-color: #4c95fc;
+    color: #eeeeee;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top:60px;
+    left: 50px;  
+
+}
+.teamHeading{
+    color: #4c95fc;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    line-height: 35px; 
+    margin: 0.3em;
+    font-weight: bolder;
+    position: relative;
+    top:55px;
+}
+
+.rosey{
+    width: 120px;
+    height: auto;
+    position: relative;
+    top:-55px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.roseyText{
+    max-width: 200px;
+    max-height: auto;
+    padding-left: 25px;
+    display: inline-block;
+    position: relative;
+    top:65px;
+}
+
+.michael{
+    width: 120px;
+    height: auto;
+    position: relative;
+    top:-105px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.michaelText{
+    max-width: 200px;
+    max-height: auto;
+    padding-left: 25px;
+    display: inline-block;
+    position: relative;
+    top:65px;
+}
+.royzanne{
+    width: 120px;
+    height: auto;
+    padding-left: 20px;
+    position: relative;
+    top:-155px;
+    display: inline-block;
+}
+
+.royzanneText{
+    max-width: 200px;
+    max-height: auto;
+    padding-left: 25px;
+    display: inline-block;
+    position: relative;
+    top:65px;
+    margin: 0;
+}
+.openings{
+    width: 230px;
+    height: 60px;
+    background-color: #4c95fc;
+    color: #eeeeee;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top:65px;
+    left: 50px;  
+}
+.founderHeading{
+    color: #4c95fc;
+    padding-top: 30px;
+    position: relative;
+    top:60px;
+    padding-bottom: 10px;
+    margin: 0.3em;
+    font-weight: bolder;
+}
+
+.arjun{
+    width: 315px;
+    height: auto;
+    position: relative;
+    top:80px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.arjunHeading{
+    color: #4c95fc; 
+    text-align: center;
+    position: relative;
+    top:110px;
+}
+
+.arjunText{
+    max-width: auto;
+    max-height: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    position: relative;
+    top:125px;
+    display: inline-block;
+}
+
+.sayo{
+    width: 315px;
+    height: auto;
+    position: relative;
+    top:150px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.sayoHeading{
+    color: #4c95fc;
+    text-align: center;
+    position: relative;
+    top:180px;
+}
+
+.sayoText{
+    max-width: auto;
+    max-height: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    position: relative;
+    top:200px;
+    display: inline-block;
+}
+
+.touch{
+    width: 150px;
+    height: 60px;
+    background-color: #4c95fc;
+    color: #eeeeee;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top:220px;
+    left: 85px;
+}
+
+.stroke{
+    width:350px;
+    height:auto;
+    vertical-align: middle;
+    position: relative;
+    top:240px;
+    padding: 25px;
+}
+
+.back{
+    position: relative;
+    top:260px; 
+    text-align: center;
+}
+
+.arrow{
+    width:35px;
+    height:15px;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    *{  box-sizing: border-box;
+        /* overflow-x: hidden; */
+        margin: 0;
+        padding:0;
+    }
+
+    .headerSection{
+        contain: none;
+    }
+    .logo{
+        width:75px;
+        max-height:95px;
+        position: relative;
+        top: 30px;
+        padding-left: 35px;
+    }
+    .aboutKandua{
+        display: block;
+        color: #000000;
+        position: relative;
+        top:33px;
+        left: 8px;
+        padding-top: 5px;
+        display: inline-block;
+        font-size: 17px;
+        border-bottom: 1px solid;
+    }
+    .instagram{
+        display: block;
+        width:25px;
+        height:25px;
+        position: relative;
+        right:150px;
+        top:60px;
+        float:right;
+    }
+    .facebook{
+        display: block;
+        width:25px;
+        height:25px;
+        position: relative;
+        right:80px;
+        top:60px;
+        float:right;
+    }
+    .linked{
+        display: block;
+        width:25px;
+        height:25px;
+        position: relative;
+        right:10px;
+        top:60px;
+        float:right;
+    }
+    .burgerNav{
+        display:none;
+    }
+    
+    .heading{
+        color: #4c95fc;
+        position: relative;
+        top: 60px;
+        margin: 0.3em;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 2.8em;
+    }  
+
+    .mainText{
+        margin: 0.9em;  
+        padding-bottom: 15px; 
+        /* text-align: center; */
+        position: relative;
+        top: 80px;
+        font-size: 1.3em;
+    }
+    
+    .blueBar{
+        background-color: #4c95fc;
+        color:#eeeeee;
+        position: relative;
+        top:130px;
+        font-weight: bold;
+        line-height: 0.9em;
+        max-height: 120px;
+    }
+
+    .numberOne{
+        position: relative;
+        top:10px;
+        left:-470px;
+        
+    }
+    .numberTwo{
+        position: relative;
+        top:-80px;
+        left:-20px;
+        
+    }
+    .numberThree{
+        position: absolute;
+        top:30px;
+        right:250px;
+       
+    }
+
+    .statsOne{
+        display: inline;
+        position: relative;
+        top:-5px;
+        left:-470px;
+    }
+    .statsTwo{
+        display: inline;
+        position: relative;
+        top:-90px;
+        left:-20px;
+    }
+    .statsThree{
+        display: inline;
+        position: absolute;
+        top:80px;
+        right:100px;
+    }
+    
+    .customerHeading{
+        color: #4c95fc;
+        padding-top: 20px;
+        margin: 0.3em;
+        position: relative;
+        top:180px;
+        font-weight: bolder;
+    }
+    
+    .thembi{
+        width: 150px;
+        height:auto;
+        position: relative;
+        top:250px;
+        padding-left: 20px;
+    }
+    
+    .thembiText{
+        max-width: 900px;
+        position: relative;
+        top:250px;
+        
+    }
+
+    .One{
+        position: relative;
+        left:650px;
+    }
+    
+    .paulo{
+        width: 150px;
+        height: auto;
+        position: relative;
+        top:280px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .pauloText{
+        max-width: 900px;
+        position: relative;
+        top:270px;
+    }
+    
+    #pauoloOne{
+        position: relative;
+        left:1200px;
+    }
+    .janine{
+        width: 150px;
+        height: auto;
+        position: relative;
+        top:315px;
+        padding-left: 20px;
+    }
+    
+    .janineText{
+        max-width: 900px;
+        position: relative;
+        top:305px;
+    }
+    
+    .quote{
+        width: 150px;
+        height: 60px;
+        background-color: #4c95fc;
+        color: #eeeeee;
+        text-decoration: none;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top:350px;
+        left: 470px;
+    }
+    
+    .proHeading{
+        color: #4c95fc;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        margin: 0.3em;
+        font-weight: bolder;
+        position: relative;
+        top:380px;
+    }
+    
+    .dylan{
+        width: 150px;
+        height: auto;
+        position: relative;
+        top:420px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .dylanText{
+        max-width: 900px;
+        position: relative;
+        top:410px;
+    }
+    
+    .mohammed{
+        width: 150px;
+        height: auto;
+        position: relative;
+        top:460px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .mohammedText{
+        max-width: 900px;
+        position: relative;
+        top:455px;
+    }
+    
+    .joe{
+        width: 150px;
+        height: auto;
+        position: relative;
+        top:500px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .joeText{
+        max-width: 900px;
+        position: relative;
+        top:465px;
+    }
+    
+    .join{
+        width: 150px;
+        height: 60px;
+        background-color: #4c95fc;
+        color: #eeeeee;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top:550px;
+        left: 475px;
+    }
+    
+    .partnersHeading{
+        color: #4c95fc;
+        padding-top: 30px;
+        padding-bottom: 8px;
+        line-height: 35px; 
+        margin: 0.3em;
+        font-weight: bolder;
+        position: relative;
+        top:555px;
+    }
+    
+    .ygap{
+        width: 150px;
+        height:auto;
+        position: relative;
+        top:540px;
+        padding-left: 25px;
+        display: inline-block;
+    }
+    
+    .ygapText{
+        max-width: 900px;
+        position: relative;
+        padding-left: 20px;
+        top:600px;
+    }
+    
+    .leroyMerlin{
+        width: 150px;
+        height:auto;
+        position: relative;
+        top:575px;
+        display: inline-block;
+    }
+    
+    .leroyMerlinText{
+        max-width: 900px;
+        position: relative;
+        top:580px;
+    }
+    
+    .partner{
+        width: 230px;
+        height: 60px;
+        background-color: #4c95fc;
+        color: #eeeeee;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top:600px;
+        left: 440px;  
+    
+    }
+    .teamHeading{
+        color: #4c95fc;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        line-height: 35px; 
+        margin: 0.3em;
+        font-weight: bolder;
+        position: relative;
+        top:620px;
+    }
+    
+    .rosey{
+        width: 150px;
+        height: auto;
+        position: relative;
+        top:665px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .roseyText{
+        max-width: 900px;
+        position: relative;
+        top:630px;
+    }
+    
+    .michael{
+        width: 150px;
+        height: auto;
+        position: relative;
+        top:705px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .michaelText{
+        max-width: 900px;
+        padding-left: 25px;
+        position: relative;
+        top:695px;
+    }
+    .royzanne{
+        width: 150px;
+        height: auto;
+        padding-left: 20px;
+        position: relative;
+        top:745px;
+        display: inline-block;
+    }
+    
+    .royzanneText{
+        max-width: 900px;
+        padding-left: 25px;
+        position: relative;
+        top:735px;
+        margin: 0;
+    }
+    .openings{
+        width: 230px;
+        height: 60px;
+        background-color: #4c95fc;
+        color: #eeeeee;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top:800px;
+        left: 450px;  
+    }
+    .founderHeading{
+        color: #4c95fc;
+        padding-top: 30px;
+        position: relative;
+        top:860px;
+        text-align: center;
+        padding-bottom: 10px;
+        margin: 0.3em;
+        font-weight: bolder;
+    }
+    
+    .arjun{
+        width: 500px;
+        height: auto;
+        position: relative;
+        top:900px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .arjunHeading{
+        color: #4c95fc; 
+        position: relative;
+        left:-295px;
+        font-size: 22px;
+        top:915px;
+    }
+    
+    .arjunText{
+        max-width: 500px;
+        max-height: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: center;
+        position: relative;
+        top:920px;
+        display: inline-block;
+    }
+
+    .foundersSection .arjunText br{
+        display:none;
+    }
+    
+    .sayo{
+        width: 500px;
+        height: auto;
+        position: relative;
+        top:625px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .sayoHeading{
+        color: #4c95fc;
+        text-align: center;
+        font-size: 22px;
+        position: relative;
+        top:640px;
+        left:205px;
+    }
+    
+    .sayoText{
+        max-width: 550px;
+        max-height: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: center;
+        position: relative;
+        top:640px;
+        display: inline-block;
+        left:550px;
+    }
+    
+    .touch{
+        width: 150px;
+        height: 60px;
+        background-color: #4c95fc;
+        color: #eeeeee;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top:780px;
+        left: 455px;
+    }
+    
+    .stroke{
+        width:1200px;
+        height:auto;
+        vertical-align: middle;
+        position: relative;
+        top:800px;
+        /* padding: 25px; */
+    }
+    
+    .back{
+        position: relative;
+        top:840px; 
+        text-align: center;
+    }
+    
+    .arrow{
+        width:35px;
+        height:15px;
+    }
+}
+
+/* Medium devices (landscape tablets, 800px and up) */
+@media only screen and (max-width: 800px) {
+    .logo{
+        width:40px;
+        max-height:47px;
+        position: relative;
+        margin: 0.75em;
+        top: 15px;
+    }
+
+    .burgerNav{
+        width:23px;
+        max-height:40px;
+        position: relative;
+        top: -25px;
+        left: 760px;
+        margin-left: -0.9em;
+        fill: #3f3f3f;
+        
+    }
+    .aboutKandua{
+        display: none;
+      
+    }
+    
+    .instagram{
+        display: none;
+    }
+    .facebook{
+        display: none;
+    }
+    .linked{
+        display: none;
+    }
+    
+    
+    .heading{
+        color: #4c95fc;
+        position: relative;
+        top: 30px;
+        margin: 0.3em;
+        font-size: 2.8rem;
+        text-emphasis:center;
+    }
+    
+    .mainText{
+        margin: 0.9em; 
+        padding-bottom: 15px; 
+        position: relative;
+        top: 50px;
+    }
+    
+    .blueBar{
+        background-color: #4c95fc;
+        color:#eeeeee;
+        padding:35px 35px 35px 35px;
+        position: relative;
+        top:80px;
+        line-height: 0.9em;
+        margin: 0;
+        font-size: 16px;
+        width:100%;
+        height: 150px;
+    }
+    .numberOne{
+        position: relative;
+        left:-290px;
+        font-size: 1rem;
+        padding: 5px;
+        
+    }
+    
+    .numberTwo{
+        position: relative;
+        left:10px;
+        top:-120px;
+        font-size: 1rem;
+        padding: 5px;
+    }
+    .numberThree{
+        position: absolute;
+        left:630px;
+        top:35px;
+        font-size: 1rem;
+        padding: 5px;
+    }   
+    .statsOne{
+        position: relative;
+        left: -280px;
+        top:-20px;
+        font-size: 1rem;
+        padding: 5px;
+    }
+    .statsTwo{
+        position: relative;
+        top: -140px;
+        font-size: 1rem;
+        padding: 5px;
+    }
+    /* .statsThree{
+        position: relative;
+        top:-260px;
+        left: 240px;
+        font-size: 1rem;
+        padding: 5px;
+        word-wrap: break-word;
+    } */
+    
+    .customerHeading{
+        color: #4c95fc;
+        padding-top: 20px;
+        margin: 0.3em;
+        position: relative;
+        top:100px;
+        font-weight: bolder;
+    }
+    
+    .thembi{
+        width: 80px;
+        height:auto;
+        position: relative;
+        top:100px;
+        padding-left: 20px;
+        
+    }
+    
+    .thembiText{
+        max-width: 500px;
+        max-height: auto;
+        position: relative;
+        top:130px;
+        padding-left: 25px;
+       
+    }
+    
+    .paulo{
+        width: 80px;
+        height: auto;
+        position: relative;
+        top:235px;
+        right:590px;
+        
+    }
+    
+    .pauloText{
+        max-width: 500px;
+        height: auto;
+        position: relative;
+        top:168px;
+        left: 79px;
+    }
+    
+    .janine{
+        width: 80px;
+        height: auto;
+        position: relative;
+        top:240px;
+        right:505px;
+    }
+    
+    .janineText{
+        max-width: 500px;
+        max-height: auto;
+        padding-left: 25px;
+        display: inline-block;
+        position: relative;
+        top:175px;
+        left: 79px;
+    }
+    
+    .quote{
+        width: 150px;
+        height: 60px;
+        background-color: #4c95fc;
+        color: #eeeeee;
+        text-decoration: none;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top:190px;
+        left: 280px;
+    }
+    
+    .proHeading{
+        color: #4c95fc;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        margin: 0.3em;
+        font-weight: bolder;
+        position: relative;
+        top:190px;
+    }
+    
+    .dylan{
+        width: 80px;
+        height: auto;
+        position: relative;
+        top:170px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .dylanText{
+        max-width: 500px;
+        max-height: auto;
+        position: relative;
+        top:215px;
+        left: -2px;
+    }
+    
+    .mohammed{
+        width: 80px;
+        height: auto;
+        position: relative;
+        top:300px;
+        right:585px;
+    }
+    
+    .mohammedText{
+        max-width: 500px;
+        max-height: auto;
+        left: 79px;
+        position: relative;
+        top:235px;
+    }
+    
+    .joe{
+        width: 80px;
+        height: auto;
+        position: relative;
+        top:305px;
+        right: 504px;
+    }
+    
+    .joeText{
+        max-width: 500px;
+        max-height: auto;
+        position: relative;
+        left: 79px;
+        top:255px;
+    }
+    
+    .join{
+        width: 150px;
+        height: 60px;
+        background-color: #4c95fc;
+        color: #eeeeee;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top:275px;
+        left: 285px;
+    }
+    
+    .partnersHeading{
+        color: #4c95fc;
+        padding-top: 30px;
+        padding-bottom: 8px;
+        line-height: 35px; 
+        margin: 0.3em;
+        font-weight: bolder;
+        position: relative;
+        top:270px;
+    }
+    
+    .ygap{
+        width: 90px;
+        height:auto;
+        position: relative;
+        top:180px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .ygapText{
+        max-width: 550px;
+        max-height: auto;
+        padding-left: 25px;
+        padding-bottom: 20px;
+        position: relative;
+        top:295px;
+    }
+    
+    .leroyMerlin{
+        width: 100px;
+        height:auto;
+        position: relative;
+        top:225px;
+        display: inline-block;
+    }
+    
+    .leroyMerlinText{
+        max-width: 550px;
+        max-height: auto;
+        padding-left: 15px;
+        padding-bottom: 30px;
+        display: inline-block;
+        position: relative;
+        top:290px;
+    }
+    
+    .partner{
+        width: 230px;
+        height: 60px;
+        background-color: #4c95fc;
+        color: #eeeeee;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top:280px;
+        left: 250px;  
+    
+    }
+    .teamHeading{
+        color: #4c95fc;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        line-height: 35px; 
+        margin: 0.3em;
+        font-weight: bolder;
+        position: relative;
+        top:275px;
+    }
+    
+    .rosey{
+        width: 80px;
+        height: auto;
+        position: relative;
+        top:285px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .roseyText{
+        max-width: 500px;
+        max-height: auto;
+        padding-left: 35px;
+        position: relative;
+        top:305px;
+    }
+    
+    .michael{
+        width: 80px;
+        height: auto;
+        position: relative;
+        top:285px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    
+    .michaelText{
+        max-width: 500px;
+        max-height: auto;
+        padding-left: 35px;
+        display: inline-block;
+        position: relative;
+        top:330px;
+    }
+    .royzanne{
+        width: 80px;
+        height: auto;
+        padding-left: 20px;
+        position: relative;
+        top:415px;
+        right: 590px;
+        display: inline-block;
+    }
+    
+    .royzanneText{
+        max-width: 500px;
+        max-height: auto;
+        left: 90px;
+        display: inline-block;
+        position: relative;
+        top:350px;
+        margin: 0;
+    }
+    .openings{
+        width: 230px;
+        height: 60px;
+        background-color: #4c95fc;
+        color: #eeeeee;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top:395px;
+        left: 230px;  
+    }
+    .founderHeading{
+        color: #4c95fc;
+        padding-top: 30px;
+        position: relative;
+        top:400px;
+        text-align: center;
+        font-weight: bolder;
+    }
+    
+    .arjun{
+        width: 450px;
+        height: auto;
+        position: relative;
+        top:420px;
+        left: 110px;
+        display: inline-block;
+    }
+    
+    .arjunHeading{
+        color: #4c95fc; 
+        text-align: center;
+        position: relative;
+        top:445px;
+    }
+    
+    .arjunText{
+        max-width: 500px;
+        max-height: auto;
+        left: 110px;
+        padding-right: 25px;
+        text-align: center;
+        position: relative;
+        top:455px;
+        display: inline-block;
+    }
+    
+    .sayo{
+        width: 420px;
+        height: auto;
+        position: relative;
+        top:480px;
+        left: 130px;
+        display: inline-block;
+    }
+    
+    .sayoHeading{
+        color: #4c95fc;
+        text-align: center;
+        position: relative;
+        top:505px;
+    }
+    
+    .sayoText{
+        max-width: 500px;
+        max-height: auto;
+        left:108px;
+        padding-right: 25px;
+        text-align: center;
+        position: relative;
+        top:520px;
+        display: inline-block;
+    }
+    
+    .touch{
+        width: 150px;
+        height: 60px;
+        background-color: #4c95fc;
+        color: #eeeeee;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top:550px;
+        left: 275px;
+    }
+    
+    .stroke{
+        width:650px;
+        height:auto;
+        vertical-align: middle;
+        position: relative;
+        top:560px;
+        left: 50px;
+    }
+    
+    .back{
+        position: relative;
+        top:590px; 
+        text-align: center;
+    }
+    
+    .arrow{
+        width:35px;
+        height:15px;
+    }
+    
+
+}
